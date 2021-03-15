@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recetario  SYSTEM "recetario.dtd">
+<recetario>
+    <receta>
+        <nombre>Tarta de chocolate</nombre>
+        <imagenFinal></imagenFinal>
+        <tipo definicion="postre">Postre ligero</tipo>
+        <dificultad>Facil</dificultad>
+        <tiempo>45 minutos</tiempo>
+        <calorias>650</calorias>
+        <ingredientes>
+            <ingrediente nombre="harina" cantidad="200 gramos"></ingrediente>
+        </ingredientes>
+        <procedimiento>
+            <paso orden="1">Mezclar los ingredientes</paso>
+        </procedimiento>
+        <elementosElaboración>
+            <utensilio>Horno</utensilio>
+        </elementosElaboración>
+        <origen></origen>
+        <temporada epoca="Otoño"></temporada>
+        <bebida>Tinto</bebida>
+        <consejoChef></consejoChef>
+    </receta>
+</recetario>
