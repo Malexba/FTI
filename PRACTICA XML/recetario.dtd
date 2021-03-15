@@ -5,6 +5,7 @@
 <!ELEMENT imagenFinal (#PCDATA)>
 <!ELEMENT tipo (#PCDATA)>
 <!ATTLIST tipo definicion (entrante | primero | segundo | postre) #REQUIRED>
+<!ATTLIST tipo celiaco (si | no) #IMPLIED>
 <!ELEMENT ingredientes (ingrediente+,imagenIngredientes?)>
 <!ELEMENT imagenIngredientes (#PCDATA)>
 <!ELEMENT ingrediente (#PCDATA)>
