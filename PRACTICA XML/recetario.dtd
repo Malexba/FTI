@@ -1,16 +1,18 @@
 
 <!ELEMENT recetario (receta+)>
-<!ELEMENT receta  (nombre, imagenFinal?,tipo,dificultad,tiempo, calorias?, ingredientes,  procedimiento,   elementosElaboración, origen?,temporada?,bebida?,consejoChef?)>
+<!ELEMENT receta  (nombre, imagenFinal?,tipo,dificultad,tiempo, calorias?, ingredientes,  procedimiento,   elementosElaboración, autor?,temporada?,bebida?,consejoChef?)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT imagenFinal (#PCDATA)>
 <!ELEMENT tipo (#PCDATA)>
 <!ATTLIST tipo definicion (entrante | primero | segundo | postre) #REQUIRED>
-<!ATTLIST tipo celiaco (si | no) #IMPLIED>
+<!ATTLIST tipo celiacos (si | no) #IMPLIED>
+<!ATTLIST tipo vegetariano (si | no) #IMPLIED>
 <!ELEMENT ingredientes (ingrediente+,imagenIngredientes?)>
 <!ELEMENT imagenIngredientes (#PCDATA)>
+<!ATTLIST ingredientes personas CDATA #IMPLIED>
 <!ELEMENT ingrediente (#PCDATA)>
-<!ATTLIST ingrediente nombre ID #REQUIRED>
-<!ATTLIST ingrediente cantidad CDATA #REQUIRED>
+<!ATTLIST ingrediente nombre CDATA #REQUIRED>
+<!ATTLIST ingrediente cantidad CDATA #IMPLIED>
 <!ELEMENT calorias (#PCDATA)>
 <!ELEMENT procedimiento (paso+)>
 <!ELEMENT paso (#PCDATA)>
@@ -19,7 +21,7 @@
 <!ELEMENT dificultad (#PCDATA)>
 <!ELEMENT elementosElaboración (utensilio+)>
 <!ELEMENT utensilio (#PCDATA)>
-<!ELEMENT origen (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
 <!ELEMENT temporada EMPTY>
 <!ATTLIST temporada epoca (Otoño | Invierno | Primavera | Verano) #REQUIRED>
 <!ELEMENT bebida (#PCDATA)>

@@ -2,24 +2,307 @@
 <!DOCTYPE recetario  SYSTEM "recetario.dtd">
 <recetario>
     <receta>
+        <nombre>Huevos rellenos</nombre>
+        <imagenFinal></imagenFinal>
+        <tipo definicion="entrante" celiacos="si">Frio</tipo>
+        <dificultad>Facil</dificultad>
+        <tiempo>30 minutos</tiempo>
+        <calorias></calorias>
+        <ingredientes >
+            <ingrediente nombre="huevos" cantidad="12"></ingrediente>
+            <ingrediente nombre="Bonito en conserva en aceite" cantidad="200 gramos"></ingrediente>
+            <ingrediente nombre="Pimiento morron" cantidad="1 lata"></ingrediente>
+            <ingrediente nombre="sal"></ingrediente>
+            <ingrediente nombre="mayonesa" ></ingrediente>
+        </ingredientes>
+        <procedimiento>
+            <paso orden="1">Cocer los huevos y pelarlos una vez fríos. Partirlos a la mitad y sacar todas las yemas con cuidado.</paso>
+            <paso orden="2">En un cuenco aparte poner las yemas, reservando una, el bonito escurrido, el pimiento morron troceado, tres cucharadas de mayonesa y sal.</paso>
+            <paso orden="3">Mezclar bien todo con un tenedor, a la vez que presionamos para deshacer los ingredientes.</paso>
+            <paso orden="4">Rellenamos con esta mezcla cada mitad de un huevo. Cubrir con un poco mayonesa. Conservar en la nevera</paso>
+            <paso orden="5">Servir adornando con unas tiras de pimiento y yema rallada.</paso>
+        </procedimiento>
+        <elementosElaboración>
+            <utensilio>Olla</utensilio>
+        </elementosElaboración>
+        <autor>www.directoalpaladar.com</autor>
+        <consejoChef> Mucho más rico con mayonesa casera.</consejoChef>
+    </receta>
+    <receta>
+        <nombre>Ensalada de tofu</nombre>
+        <imagenFinal></imagenFinal>
+        <tipo definicion="entrante" vegetariano="si">Ensaladas</tipo>
+        <dificultad>Facil</dificultad>
+        <tiempo>10 minutos</tiempo>
+        <calorias></calorias>
+        <ingredientes >
+            <ingrediente nombre="tofu" cantidad="150 gramos"></ingrediente>
+            <ingrediente nombre="canonigos" cantidad="150 gramos"></ingrediente>
+            <ingrediente nombre="lechuga variada" cantidad="100 gramos"></ingrediente>
+            <ingrediente nombre="brotes de soja" cantidad="50 gramos"></ingrediente>
+            <ingrediente nombre="pepino" cantidad="Medio"></ingrediente>
+            <ingrediente nombre="nueces" cantidad="8-9"></ingrediente>
+            <ingrediente nombre="cebollitas en vinagre" cantidad="2"></ingrediente>
+            <ingrediente nombre="mostaza" cantidad="1 cucharada"></ingrediente>
+            <ingrediente nombre="leche de soja" cantidad="3 cucharadas"></ingrediente>
+            <ingrediente nombre="pimienta negra"></ingrediente>
+            <ingrediente nombre="sal"></ingrediente>
+            <ingrediente nombre="aceite de oliva" ></ingrediente>
+        </ingredientes>
+        <procedimiento>
+            <paso orden="1">Echar en una ensaladera los canónigos y lechuga, cortar el pepino en rodajas e incorporar junto con las cebolllitas.</paso>
+            <paso orden="2">Cortar el tofu en cuadraditos y añadirlos junto con los brotes de soja.</paso>
+            <paso orden="3">Para el aliño, mezclar en un bol el aceite, mostaza, leche de soja.</paso>
+            <paso orden="4">Disponer el aliño por encima de la ensalada y rectificar de pimienta y sal.</paso>
+        </procedimiento>
+        <elementosElaboración>
+            <utensilio>Ensaladera</utensilio>
+        </elementosElaboración>
+        <autor>www.okdiario.com/recetas</autor>
+    </receta>
+    <receta>
+        <nombre>Arroz con Mejillones</nombre>
+        <imagenFinal></imagenFinal>
+        <tipo definicion="primero">Arroces</tipo>
+        <dificultad>Medio</dificultad>
+        <tiempo>45 minutos</tiempo>
+        <calorias></calorias>
+        <ingredientes>
+            <ingrediente nombre="mejillones" cantidad="24"></ingrediente>
+            <ingrediente nombre="arroz" cantidad="300 gramos"></ingrediente>
+            <ingrediente nombre="pimiento verde" cantidad="1"></ingrediente>
+            <ingrediente nombre="cebolleta" cantidad="1"></ingrediente>
+            <ingrediente nombre="puerro" cantidad="1"></ingrediente>
+            <ingrediente nombre="tomate" cantidad="1"></ingrediente>
+            <ingrediente nombre="dientes ajo" cantidad="2"></ingrediente>
+            <ingrediente nombre="sal"></ingrediente>
+            <ingrediente nombre="aceite de oliva" ></ingrediente>
+        </ingredientes>
+        <procedimiento>
+            <paso orden="1">Limpiar los mejillones, cocerlos en agua con sal, reservar los mejillones y el caldo restante</paso>
+            <paso orden="2">Rehogar el pimiento, la cebolleta, el perro, los dientes de ajo y el tomate picados finamente y sazonar.</paso>
+            <paso orden="3">Agregar el arroz, la mitad de los mejillones sin cáscara, el caldo de coer los mejillones. Sazonar de nuevo y cocinarlo duratne 15-18 minutos</paso>
+            <paso orden="4">Cuando este a punto, decora con el resto de los mejillones</paso>
+        </procedimiento>
+        <elementosElaboración>
+            <utensilio>Tartera</utensilio>
+        </elementosElaboración>
+        <autor>Karlos Arguiñano</autor>
+        <temporada epoca="Otoño"></temporada>
+        <bebida>Cava</bebida>
+        <consejoChef></consejoChef>
+    </receta>
+    <receta>
+        <nombre>Lentejas con chorizo</nombre>
+        <imagenFinal></imagenFinal>
+        <tipo definicion="primero">Legumbres</tipo>
+        <dificultad>Medio</dificultad>
+        <tiempo>90 minutos</tiempo>
+        <calorias>256 kcal por 100 gramos</calorias>
+        <ingredientes personas="6 personas">
+            <ingrediente nombre="lentejas" cantidad="500 gramos"></ingrediente>
+            <ingrediente nombre="zanahorias" cantidad="4"></ingrediente>
+            <ingrediente nombre="pimiento verde" cantidad="1"></ingrediente>
+            <ingrediente nombre="cebollas" cantidad="2"></ingrediente>
+            <ingrediente nombre="laurel" cantidad="1 hoja"></ingrediente>
+            <ingrediente nombre="pimentón de la vera" cantidad="1 cucharada"></ingrediente>
+            <ingrediente nombre="tomates" cantidad="2"></ingrediente>
+            <ingrediente nombre="chorizos" cantidad="2"></ingrediente>
+            <ingrediente nombre="dientes ajo" cantidad="2"></ingrediente>
+            <ingrediente nombre="sal"></ingrediente>
+            <ingrediente nombre="pimienta negra"></ingrediente>
+            <ingrediente nombre="aceite de oliva" ></ingrediente>
+        </ingredientes>
+        <procedimiento>
+            <paso orden="1">Picamos la cebolla, el ajo, el pimiento, las zanahorias y los tomates</paso>
+            <paso orden="2">En una cazuela con aceite sofreimos la cebolla y dientes de ajo. Añadimos el pimiento, tomate, zanahorias y la hoja de laurel y lo sofreimos unos minutos. Incorporar el pimentón</paso>
+            <paso orden="3">Lavar las lentejas, escurrirlas. Añadir a la cazuela y remover para que se junte todo</paso>
+            <paso orden="4">Cubrir con agua fría hasta que que quede la cazuela casi llena. Dejar que empiece a hervir.</paso>
+            <paso orden="5">Retirar la espuma que se forma. A la media hora de cocción añadir sal y pimienta al gusto.</paso>
+            <paso orden="6">Añadir los dos chorizos. Dejar que se cocinen a temperatura media durante la siguiente media hora.</paso>
+            <paso orden="7">Retiramos los chorizos.La última media hora cocinamos las lentejas a fuego lento.</paso>
+            <paso orden="8">Emplatar en un plato hondo el guiso de lentejas y el chorizo encima en rodajas.</paso>
+        </procedimiento>
+        <elementosElaboración>
+            <utensilio>Cazuela</utensilio>
+        </elementosElaboración>
+        <autor>www.recetasderechupete.com</autor>
+        <temporada epoca="Invierno"></temporada>
+        <consejoChef>Uno de los pasos importantes es la elección de las lentejas. Yo utilizo la más común, la lenteja pardina extra.</consejoChef>
+    </receta>
+    <receta>
+        <nombre>Pasta Carbonara</nombre>
+        <imagenFinal></imagenFinal>
+        <tipo definicion="primero">Pastas</tipo>
+        <dificultad>Facil</dificultad>
+        <tiempo>25 minutos</tiempo>
+        <calorias></calorias>
+        <ingredientes personas="4 personas">
+            <ingrediente nombre="yemas de huevo" cantidad="3"></ingrediente>
+            <ingrediente nombre="huevo" cantidad="1"></ingrediente>
+            <ingrediente nombre="Panceta" cantidad="100 gramos"></ingrediente>
+            <ingrediente nombre="Queso Pecorino" cantidad="1"></ingrediente>
+            <ingrediente nombre="Espaguetis" cantidad="320 gramos"></ingrediente>
+            <ingrediente nombre="sal"></ingrediente>
+            <ingrediente nombre="pimienta negra" ></ingrediente>
+        </ingredientes>
+        <procedimiento>
+            <paso orden="1">Corta la panceta en trocitos y frielos en una sartén hasta que comiencen a dorarse</paso>
+            <paso orden="2">Bate las tres yemas de huevo con el huevo y el queso pecorino recien rallado hasta hacer una mezcla algo espesa. Dale un toque de pimienta negra</paso>
+            <paso orden="3">Pon la pasta a cocer en abundante agua con sal, y sacala cuando falten un par de minutos para que este al dente</paso>
+            <paso orden="4">En la sarten donde se había reservado la panceta, se agrega la pasta escurrida, y la mezcla de huevos, queso y pimienta. Mezclar bien</paso>
+            <paso orden="5">Agregar un cucharón de agua de cocción de la pasta, remover mientras se va cuajando ligeramente el huevo.</paso>
+            <paso orden="6">Servir espolvoreando un poco más de pecorino rallado y pimienta negra al gusto</paso>
+        </procedimiento>
+        <elementosElaboración>
+            <utensilio>Sarten</utensilio>
+            <utensilio>Olla</utensilio>
+            <utensilio>Rallador</utensilio>
+        </elementosElaboración>
+        <autor>www.directoalpaladar.com</autor>
+        <consejoChef>No utilices bacon o bacon ahumado para hacer esta receta. Busca el auténtico guanciale italiano y si no, utiliza en su lugar una buena panceta fresca, retirando la piel.</consejoChef>
+    </receta>
+    <receta>
+        <nombre>Carrilleras con manzana y ciruela</nombre>
+        <imagenFinal></imagenFinal>
+        <tipo definicion="segundo">Carnes</tipo>
+        <dificultad>Alta</dificultad>
+        <tiempo>60 minutos</tiempo>
+        <calorias></calorias>
+        <ingredientes>
+            <ingrediente nombre="carrilleras de ternera" cantidad="2"></ingrediente>
+            <ingrediente nombre="manzana" cantidad="4"></ingrediente>
+            <ingrediente nombre="ciruelas pasas" cantidad="250 gramos"></ingrediente>
+            <ingrediente nombre="cebolla" cantidad="1"></ingrediente>
+            <ingrediente nombre="puerro" cantidad="2"></ingrediente>
+            <ingrediente nombre="zanahoria" cantidad="3"></ingrediente>
+            <ingrediente nombre="brandy" cantidad="1 copa"></ingrediente>
+            <ingrediente nombre="sal"></ingrediente>
+            <ingrediente nombre="aceite de oliva" ></ingrediente>
+        </ingredientes>
+        <procedimiento>
+            <paso orden="1">Coloca en una olla las carrilleras con agua, y una zanahoria. Sazona y deja cocer durante 20 minutos. Cuando esten cocidas, corta en filetes.Reserva el caldo</paso>
+            <paso orden="2">Cocer durante 15 minutos por un lado las manzanas peladas y por otro las ciruelas deshuesadas.Haz un puré con las manzanas y otro con las ciruelas cocidas.</paso>
+            <paso orden="3">Pica los puerros, cebollas y 2 zanahorias. Pon todo a pochar con un poco de aceite. Cuando se dore vierte el brandy y flambea.Vierte un poco de caldo y ponla en una cazuela</paso>
+            <paso orden="4">Colocar los filetes de carrillera sobre la salsa y cocina durante unos minutos.</paso>
+            <paso orden="5">Colocar los filetes en una fuente con la salsa y acompaña con los pures de manzana y ciruela.</paso>
+        </procedimiento>
+        <elementosElaboración>
+            <utensilio>Olla</utensilio>
+            <utensilio>Cazuela</utensilio>
+            <utensilio>Batidora</utensilio>
+        </elementosElaboración>
+        <autor>Karlos Arguiñano</autor>
+        <temporada epoca="Otoño"></temporada>
+        <bebida>Tinto Crianza</bebida>
+        <consejoChef></consejoChef>
+    </receta>
+    <receta>
+        <nombre>Bacalao al pil pil</nombre>
+        <imagenFinal></imagenFinal>
+        <tipo definicion="segundo">Pescados</tipo>
+        <dificultad>Media</dificultad>
+        <tiempo>70 minutos</tiempo>
+        <calorias></calorias>
+        <ingredientes personas="2 personas">
+            <ingrediente nombre="bacalao desalado" cantidad="300 gramos"></ingrediente>
+            <ingrediente nombre="cabezas ajos" cantidad="3"></ingrediente>
+            <ingrediente nombre="guindillas" ></ingrediente>
+            <ingrediente nombre="Pan duro" cantidad="2 rebanadas" ></ingrediente>
+            <ingrediente nombre="aceite de oliva" ></ingrediente>
+        </ingredientes>
+        <procedimiento>
+            <paso orden="1">Pelar dientes de ajo y filetearlos. Tostar con aceite en una cazuela, echar dos rebanadas de pan duro al aceite para que no se quemen</paso>
+            <paso orden="2">Limpiar los lomos de bacalao y colocarlos en una cazuela con la piel hacia arriba.</paso>
+            <paso orden="3">Ir añadiendo el aceite sin los ajos por encima, llevar hasta que casi empiece a hervir, y tapar con una tapa de madera. Deja reposar 5 minutos. Repetir esta operacion dos veces más</paso>
+            <paso orden="4">Ahora que el pescado esta hecho, se comienza a girar fuera del fuego la czauela haciendo medias circunferencias. A medida que se va templando el aceite se va ligando la salsa</paso>
+            <paso orden="5">Servir acompañado de unos filetes de ajo y guindilla al gusto</paso>
+        </procedimiento>
+        <elementosElaboración>
+            <utensilio>Cazuela</utensilio>
+        </elementosElaboración>
+        <autor>Juantxu Zabala</autor>
+        <bebida>Txacoli</bebida>
+        <consejoChef>Para ligar más rapido la salsa se recomienda sacar las tajadas de bacalao y hacer circulos en el aceite con un colador</consejoChef>
+    </receta>
+    <receta>
+        <nombre>Nuggets Vegetarianos</nombre>
+        <imagenFinal></imagenFinal>
+        <tipo definicion="segundo" vegetariano="si">Niños</tipo>
+        <dificultad>Facil</dificultad>
+        <tiempo>20 minutos</tiempo>
+        <calorias></calorias>
+        <ingredientes >
+            <ingrediente nombre="soja texturizada" cantidad="100  gramos"></ingrediente>
+            <ingrediente nombre="salsa soja" cantidad="50 ml"></ingrediente>
+            <ingrediente nombre="Tabasco" ></ingrediente>
+            <ingrediente nombre="Pan rallado" cantidad="100 gramos" ></ingrediente>
+            <ingrediente nombre="huevo" cantidad="1" ></ingrediente>
+            <ingrediente nombre="aceite de oliva" ></ingrediente>
+            <ingrediente nombre="pimienta" ></ingrediente>
+        </ingredientes>
+        <procedimiento>
+            <paso orden="1">Mezclar 2 cucharadas de agua con el tabasco y la salsa de soja, echamos la soja texturizada y dejamos a remojo 15 minutos</paso>
+            <paso orden="2">En otro bol se bate el huevo con sal y pimienta, añadimos la soja bien escurrida y el pan rallado.</paso>
+            <paso orden="3">Amasamos hasta tener una masa que se pueda compactar con las manos</paso>
+            <paso orden="4">Cuando la masa no se desmigue demasiado, formamos los nuggets y lo freímos en abundante aceite por ambos lados. Escurrir el aceite en un colador y servir. </paso>
+        </procedimiento>
+        <elementosElaboración>
+            <utensilio>Sarten</utensilio>
+        </elementosElaboración>
+        <autor>www.elespanol.com/cocinillas/recetas</autor>
+    </receta>
+    <receta>
+        <nombre>Tarta de queso y cuajada</nombre>
+        <imagenFinal></imagenFinal>
+        <tipo definicion="postre"></tipo>
+        <dificultad>Facil</dificultad>
+        <tiempo>20 minutos</tiempo>
+        <calorias>320</calorias>
+        <ingredientes>
+            <ingrediente nombre="azucar" cantidad="100 gramos"></ingrediente>
+            <ingrediente nombre="cuajada" cantidad="2 sobres"></ingrediente>
+            <ingrediente nombre="queso" cantidad="8 quesitos"></ingrediente>
+            <ingrediente nombre="huevos" cantidad="3"></ingrediente>
+            <ingrediente nombre="leche" cantidad="0,75 litros"></ingrediente>
+        </ingredientes>
+        <procedimiento>
+            <paso orden="1">Mezclar el azucar con 3 cucharadas de agua para hacer un caramelo. Verter en un molde y calentar en el microondas durante 5 minutos</paso>
+            <paso orden="2">Cuando el caramelo tome color, retirar del microondas, mover el molde y dejar reposar unos minutos</paso>
+            <paso orden="3">Mezclar el resto de los ingredientes, batiendolos hasta formar una masa homogenea. Verter esta masa en el molde con el caramelo</paso>
+            <paso orden="4">Introducir en el microondas unos 12 minutos. Dejar reposar, e introducir en el frigorifico para servirlo muy frio</paso>
+        </procedimiento>
+        <elementosElaboración>
+            <utensilio>Molde</utensilio>
+            <utensilio>Microondas</utensilio>
+        </elementosElaboración>
+        <autor>https://www.gallinablanca.es/recetas/</autor>
+        <consejoChef></consejoChef>
+    </receta>
+    <receta>
         <nombre>Tarta de chocolate</nombre>
         <imagenFinal></imagenFinal>
-        <tipo definicion="postre">Postre ligero</tipo>
+        <tipo definicion="postre"></tipo>
         <dificultad>Facil</dificultad>
         <tiempo>45 minutos</tiempo>
         <calorias>650</calorias>
         <ingredientes>
             <ingrediente nombre="harina" cantidad="200 gramos"></ingrediente>
+            <ingrediente nombre="Cola-cao" cantidad="200 gramos"></ingrediente>
+            <ingrediente nombre="mantequilla" cantidad="200 gramos"></ingrediente>
+            <ingrediente nombre="azucar" cantidad="1 vaso"></ingrediente>
+            <ingrediente nombre="huevos" cantidad="3"></ingrediente>
         </ingredientes>
         <procedimiento>
-            <paso orden="1">Mezclar los ingredientes</paso>
+            <paso orden="1">Mezclar el cola-cao con la mantequilla.</paso>
+            <paso orden="2">Separar las yemas y mezclarlas con el azúcar.</paso>
+            <paso orden="3">Unir ambas mezclas y añadir la harina.</paso>
+            <paso orden="4">Montar las claras y añadirlas a la mezcla anterior mezclando siempre de arriba hacia abajo para que no se bajen las claras.</paso>
+            <paso orden="5">Untar un molde de mantequilla y espolvorear de harina.</paso>
+            <paso orden="6">Precalentar el horno y hornear a 175º durante unos 40 min.</paso>
         </procedimiento>
         <elementosElaboración>
             <utensilio>Horno</utensilio>
         </elementosElaboración>
-        <origen></origen>
-        <temporada epoca="Otoño"></temporada>
-        <bebida>Tinto</bebida>
-        <consejoChef></consejoChef>
     </receta>
 </recetario>
