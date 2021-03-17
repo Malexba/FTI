@@ -1,28 +1,29 @@
-
 <!ELEMENT recetario (receta+)>
-<!ELEMENT receta  (nombre, imagenFinal?,tipo,dificultad,tiempo, calorias?, ingredientes,  procedimiento,   elementosElaboración, autor?,temporada?,bebida?,consejoChef?)>
-<!ELEMENT nombre (#PCDATA)>
-<!ELEMENT imagenFinal (#PCDATA)>
-<!ELEMENT tipo (#PCDATA)>
-<!ATTLIST tipo definicion (entrante | primero | segundo | postre) #REQUIRED>
-<!ATTLIST tipo celiacos (si | no) #IMPLIED>
-<!ATTLIST tipo vegetariano (si | no) #IMPLIED>
-<!ELEMENT ingredientes (ingrediente+,imagenIngredientes?)>
-<!ELEMENT imagenIngredientes (#PCDATA)>
-<!ATTLIST ingredientes personas CDATA #IMPLIED>
-<!ELEMENT ingrediente (#PCDATA)>
-<!ATTLIST ingrediente nombre CDATA #REQUIRED>
-<!ATTLIST ingrediente cantidad CDATA #IMPLIED>
-<!ELEMENT calorias (#PCDATA)>
-<!ELEMENT procedimiento (paso+)>
-<!ELEMENT paso (#PCDATA)>
-<!ATTLIST paso orden CDATA #REQUIRED>
-<!ELEMENT tiempo (#PCDATA)>
-<!ELEMENT dificultad (#PCDATA)>
-<!ELEMENT elementosElaboración (utensilio+)>
-<!ELEMENT utensilio (#PCDATA)>
-<!ELEMENT autor (#PCDATA)>
-<!ELEMENT temporada EMPTY>
-<!ATTLIST temporada epoca (Otoño | Invierno | Primavera | Verano) #REQUIRED>
-<!ELEMENT bebida (#PCDATA)>
-<!ELEMENT consejoChef (#PCDATA)>
+    <!ELEMENT receta (titulo, imagenFinal, datos, ingredientes, procedimiento, elementosElaboracion, opcional?)>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT imagenFinal EMPTY>
+            <!ATTLIST imagenFinal src ENTITY #IMPLIED>
+        <!ELEMENT datos (tipo, nPersonas, dificultad, tiempo, calorias)>
+            <!ELEMENT tipo (#PCDATA)>
+                <!ATTLIST tipo definicion (entrante | primero | segundo | postre) #REQUIRED>
+                <!ATTLIST tipo celiacos (si | no) #IMPLIED>
+                <!ATTLIST tipo vegetariano (si | no) #IMPLIED>
+            <!ELEMENT nPersonas (#PCDATA)>
+            <!ELEMENT dificultad (#PCDATA)>
+            <!ELEMENT tiempo (#PCDATA)>
+            <!ELEMENT calorias (#PCDATA)>
+        <!ELEMENT ingredientes (ingrediente+)>
+            <!ELEMENT ingrediente (nombre, cantidad)>
+                <!ELEMENT nombre (#PCDATA)>
+                <!ELEMENT cantidad (#PCDATA)>
+        <!ELEMENT procedimiento (paso+)>
+            <!ELEMENT paso (#PCDATA)>
+                <!ATTLIST paso orden CDATA #REQUIRED>
+        <!ELEMENT elementosElaboracion (utensilio+)>
+            <!ELEMENT utensilio (#PCDATA)>
+        <!ELEMENT opcional (autor?, temporada?, bebida?, consejoChef?)>
+            <!ELEMENT autor (#PCDATA)>
+            <!ELEMENT temporada EMPTY>
+                <!ATTLIST temporada epoca (Otoño | Invierno | Primavera | Verano) #REQUIRED>
+            <!ELEMENT bebida (#PCDATA)>
+            <!ELEMENT consejoChef (#PCDATA)>
