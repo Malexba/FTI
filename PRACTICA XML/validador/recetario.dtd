@@ -1,5 +1,28 @@
 <!ELEMENT recetario (receta+)>
-<!ELEMENT receta (titulo, ingredientes, procedimiento)>
-<!ELEMENT titulo (#PCDATA)>
-<!ELEMENT ingredientes (#PCDATA)>
-<!ELEMENT procedimiento (#PCDATA)>
+<!ELEMENT receta (titulo, imagenFinal?, datos, ingredientes, procedimiento, elementosElaboracion, opcional?)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT imagenFinal (#PCDATA)>
+    <!ELEMENT datos (tipo, nPersonas?, dificultad, tiempo, calorias?)>
+        <!ELEMENT tipo (#PCDATA)>
+            <!ATTLIST tipo definicion (entrante | primero | segundo | postre) #REQUIRED>
+            <!ATTLIST tipo celiacos (si | no) #IMPLIED>
+            <!ATTLIST tipo vegetariano (si | no) #IMPLIED>
+        <!ELEMENT nPersonas (#PCDATA)>
+        <!ELEMENT dificultad (#PCDATA)>
+        <!ELEMENT tiempo (#PCDATA)>
+        <!ELEMENT calorias (#PCDATA)>
+    <!ELEMENT ingredientes (ingrediente+)>
+        <!ELEMENT ingrediente (nombre, cantidad?)>
+            <!ELEMENT nombre (#PCDATA)>
+            <!ELEMENT cantidad (#PCDATA)>
+    <!ELEMENT procedimiento (paso+)>
+        <!ELEMENT paso (#PCDATA)>
+            <!ATTLIST paso orden CDATA #REQUIRED>
+    <!ELEMENT elementosElaboracion (utensilio+)>
+        <!ELEMENT utensilio (#PCDATA)>
+    <!ELEMENT opcional (autor?, temporada?, bebida?, consejoChef?)>
+        <!ELEMENT autor (#PCDATA)>
+        <!ELEMENT temporada EMPTY>
+            <!ATTLIST temporada epoca (Otoño | Invierno | Primavera | Verano) #REQUIRED>
+        <!ELEMENT bebida (#PCDATA)>
+        <!ELEMENT consejoChef (#PCDATA)>

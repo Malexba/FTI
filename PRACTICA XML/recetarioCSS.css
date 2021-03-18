@@ -1,0 +1,164 @@
+recetario{
+    counter-reset: contador;
+}
+titulo::before{
+    content: counter(contador, decimal) ". ";
+  counter-increment: contador
+}
+titulo{
+    display: block;
+    padding: 16px;
+    background-color:rgb(8, 8, 8);
+    color: white;
+    margin: 2px;
+    font-style:normal;
+    font-size:x-large;
+    text-align: center;
+    font-weight: bold;
+
+}
+imagenFinal{
+    display: none;
+}
+nPersonas::before{
+  content:"PARA: "; 
+}
+tipo{
+    padding: 12px;
+    margin: 2px;
+    font-size: 12 px;
+    font-weight: bold;
+}
+tipo[definicion="entrante"]{
+    background-color:rgb(167, 194, 105);
+}
+tipo[definicion="primero"]{
+    background-color:rgb(211, 158, 78);
+}
+tipo[definicion="segundo"]{
+    background-color:rgb(121, 105, 194);
+}
+tipo[definicion="postre"]{
+    background-color:rgb(105, 194, 135);
+}
+tipo[celiacos="si"]::after{
+    content: ": APTO PARA CELIACOS." ;
+}
+tipo[vegetariano="si"]::after{
+    content: ": APTO PARA VEGETARIANOS." ;
+}
+
+calorias::after{
+    content: " kcal";
+}
+
+dificultad{
+    display: block;
+    padding: 16px;
+    margin: 2px;
+    text-align:start;
+    font-size: 14 px;
+    font-weight: bold;
+
+}
+dificultad::before{
+    content: "Nivel de dificultad: ";
+}
+tiempo{
+    display: block;
+    padding: 16px;
+    margin: 2px;
+    font-style:normal;
+    text-align:start;
+    font-size: 14 px;
+    background-color: rgb(141, 227, 230);
+}
+ingredientes::before{
+    content:"INGREDIENTES:";
+      font-size: large ;
+    font-weight: bold;
+    background:rgb(158, 160, 160);
+}
+ingredientes{
+  padding: 8px;
+}
+ingrediente{
+    display: list-item;
+    font-size: medium;
+    font-weight: normal;
+    list-style: disc inside;
+    padding: 8px;
+}
+nombre::after{
+    content:":";
+}
+procedimiento::before{
+    content: "ELABORACIÓN";
+    font-size: large ;
+    font-weight: bold;
+    background:rgb(158, 160, 160);
+
+}
+procedimiento{
+    display:list-item;
+    list-style: disc;
+    counter-reset: cuenta;
+    padding: 8px;
+}
+paso::before{
+    content: counter(cuenta, decimal) ". ";
+    counter-increment: cuenta;
+}
+paso{
+    display:list-item;
+}
+calorias{
+    display: block;
+    padding: 8px;
+    margin: 2px;
+    font-style:normal;
+    text-align:start;
+    font-size: 14 px;
+    background-color: rgb(83, 183, 216);
+}
+elementosElaboracion::before{
+    content: "SE NECESITA:";
+    font-size: large ;
+    font-weight: bold;
+    background:rgb(158, 160, 160);
+}
+elementosElaboracion{
+    display: block;
+    padding: 8px;
+    margin: 8px;
+    text-align:start;
+    font-size: 14 px;
+}
+utensilio{
+    display:list-item;
+    list-style:upper-roman;
+}
+opcional{
+    display: block;
+    background-color:blanchedalmond;
+}
+consejoChef::before{
+    content: "Recomendación del Chef: ";
+}
+consejoChef{
+    display: list-item;
+}
+autor::before{
+    content: "AUTOR: ";
+}
+bebida::before{
+    content: "MARIDAJE: ";
+}
+bebida{
+    display: list-item;
+}
+temporada{
+    display: list-item;
+}
+
+

@@ -10,8 +10,9 @@ import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 
 /**
- *
- * @author Alejandro
+ * Clase que valida si un documento XML está bien formado
+ * y se ciñe a las especificaciones del DTD asociado
+ * @author Alejandro Barrio y Jorge Poza
  */
 public class Validador {
     public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE recetario  SYSTEM "recetario.dtd">
+<!DOCTYPE recetario  SYSTEM "recetarioCSS.dtd">
+<?xml-stylesheet href="recetarioCSS.css" type="text/css" ?>
 
 <recetario>
     <receta>
