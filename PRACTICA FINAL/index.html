@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Receta</title>
+    </head>
+    <body>
+        <div id="receta">
+            <h1>{{ titulo }}</h1>
+            <h2>Ingredientes</h2>
+            <ul>
+                <li v-for="ingrediente in ingredientes">{{ ingrediente }}</li>
+            </ul>
+            <h2>Pasos</h2>
+            <ol>
+                <li v-for="paso in pasos">{{ paso }}</li>
+            </ol>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
