@@ -1,7 +1,7 @@
 const receta = new Vue({
     el: '#receta',
     data: {
-        titulo: ''
+        receta: {}
     },
     mounted(){
         //alert("mounted")
