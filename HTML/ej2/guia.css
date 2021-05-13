@@ -1,0 +1,68 @@
+html{
+    background-color: #222E3A;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    color:white;
+    text-align: center;
+}
+
+.pie h4{
+    color:white;
+}
+
+p{
+    color:white;
+    text-align: center;
+}
+
+.texto{
+    padding-top: 450px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.texto h1{
+    font-family: 'Orelega One', cursive;
+    font-size:2.7em;
+}
+
+.texto h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner{
+    margin: auto;
+    background-image: url("src/ropaSoloFoto.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 501px;
+    height: 988px;
+    text-align: center;
+}
+
+.boton{
+    margin: 2rem;
+    border-radius: 2rem;
+    background-color: #BF8266;
+    width: 250px;
+    overflow: hidden;
+}
+
+.boton h3{
+    color:white;
+}
+
+.iconos{
+    float:right;
+    margin-right: 2em;
+    color: gray;
+}
+
+.iconos i{
+    margin-left: 2em;
+}

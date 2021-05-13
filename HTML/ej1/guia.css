@@ -1,0 +1,46 @@
+html{
+    background-color: #F0B819;
+    font-family: 'Teko', sans-serif;
+    line-height: 1;
+}
+
+.cajitita{
+    height: 20px;
+}
+
+.cajita{
+    height: 120px;
+}
+
+.caja{
+    height: 165px;
+}
+
+.columna{
+    float: left;
+    width: 45%;
+}
+
+.columnita{
+    float: left;
+    width: 10%;
+}
+
+.contenedor{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.der{
+    text-align: right;
+}
+
+.izq{
+    float: left;
+}
+
+hr{
+    border-color: black;
+    background-color: black;
+}
