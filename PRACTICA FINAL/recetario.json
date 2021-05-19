@@ -1,0 +1,28 @@
+{
+    "receta1": {
+        "modo": 1,
+        "titulo": "Huevos rellenos",
+        "imagenFinal": "",
+        "datos": {
+            "tipo": "Entrante (frío)",
+            "celiacos": true,
+            "nPersonas": 4,
+            "dificultad": "Fácil",
+            "tiempo": "30 minutos"
+        },
+        "ingredientes":[ "12 huevos", "200 gramos de bonito en conserva en aceite", "1 lata de pimiento morron", "Sal", "3 cucharadas de mayonesa"],
+        "pasos":["Cocer los huevos y pelarlos una vez fríos. Partirlos a la mitad y sacar todas las yemas con cuidado.",
+            "En un cuenco aparte poner las yemas, reservando una, el bonito escurrido, el pimiento morron troceado, tres cucharadas de mayonesa y sal.",
+            "Mezclar bien todo con un tenedor, a la vez que presionamos para deshacer los ingredientes.",
+            "Rellenamos con esta mezcla cada mitad de un huevo. Cubrir con un poco mayonesa. Conservar en la nevera",
+            "Servir adornando con unas tiras de pimiento y yema rallada."
+        ],
+        "elementosElaboracion": [ "Olla" ],
+        "autor": "www.directoalpaladar.com"
+    },
+    "receta3": {
+        "modo": 3,
+        "titulo": "Bechamel",
+        "video": "https://www.youtube.com/watch?v=nd_W1aZxWBo"
+    }
+}
