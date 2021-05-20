@@ -5,18 +5,69 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Receta</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     </head>
     <body>
         <div id="receta">
             <h1>{{ receta.titulo }}</h1>
-            <h2>Ingredientes</h2>
-            <ul>
-                <li v-for="ingrediente in receta.ingredientes">{{ ingrediente }}</li>
-            </ul>
-            <h2>Pasos</h2>
-            <ol>
-                <li v-for="paso in receta.pasos">{{ paso }}</li>
-            </ol>
+            <p class="autor">{{ receta.autor }}</p>
+            <div class="datos">
+                <div class="datos1" v-if="receta.modo == 1">
+                    <p>{{ receta.datos.tipo }}</p>
+                    <p>{{ receta.datos.temporada }}</p>
+                    <i v-if="!receta.datos.celiaco" class="fas fa-bread-slice"></i>
+                    <i v-if="receta.datos.vegano" class="fas fa-seedling"></i>
+                </div>
+                <p>{{ receta.nPersonas }}</p>
+                <p>{{ receta.dificultad }}</p>
+                <p>{{ receta.tiempo }}</p>
+            </div>
+            <div class="receta-imagen">
+                <img v-if="receta.modo != 3" v-bind:src="receta.imagenFinal" >
+                <iframe width="731" height="411" src="https://www.youtube.com/embed/nd_W1aZxWBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="datos4" v-if="receta.modo == 4">
+                <p>{{ receta.datos.precio }}</p>
+                <p>{{ receta.datos.tipoPlato }}</p>
+            </div>
+            <p class="descripcion" v-if="receta.modo == 2 || receta.modo == 4">
+                {{ receta.descripcion }}
+            </p>
+            <div class="ingredientes">
+                <h2>Ingredientes</h2>
+                <ul>
+                    <li v-for="ingrediente in receta.ingredientes">{{ ingrediente }}</li>
+                </ul>
+            </div>
+            <div class="pasos">
+                <h2>Pasos</h2>
+                <div class="pasosNormales" v-if="receta.modo != 2">
+                    <ol>
+                        <li v-for="paso in receta.pasos">{{ paso }}</li>
+                    </ol>
+                </div>
+                <div class="pasos2" v-if="receta.modo == 2" v-for="paso in receta.pasos">
+                    <ol>
+                        <li>{{ paso.descripcion }}</li>
+                        <div v-if="hayFoto" v-for="imagen in paso.imagenes" class="imagenes">
+                            <img v-bind:src="imagen" >
+                        </div>
+                    </ol>
+                </div>
+            </div>
+            <div v-if="receta.modo == 1" class="utensilios">
+                <h2>Utensilios</h2>
+                <ul>
+                    <li v-for="utensilio in receta.utensilios">{{ utensilio }}</li>
+                </ul>
+            </div>
+            <div class="consejosChef" v-if="receta.modo == 1 || receta.modo == 4">
+                <ul>
+                    <li v-for="consejo in receta.consejos">{{ consejo }}</li>
+                </ul>
+            </div>
+            <a v-if="receta.modo != 1" v-bind:href="receta.fuente"></a>
+            <p v-else>Libro de papel</p>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
         <script src="main.js"></script>

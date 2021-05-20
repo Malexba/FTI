@@ -1,13 +1,13 @@
 const recetario = new Vue({
-    el: '#recetario',
+    el: '#receta',
     data: {
-        recetario: {}
+        receta: {}
     },
     mounted(){
         //alert("mounted")
         const vm = this
         fetch("recetario.json")
         .then(response => response.json())
-        .then(data => vm.recetario=data);
+        .then(data => vm.receta=data);
     }
 })
