@@ -9,6 +9,9 @@ const recetario = new Vue({
         muestroReceta: function (recetita) {
             this.receta = recetita
             this.mostrarReceta = true
+        },
+        retroceder: function () {
+            this.mostrarReceta = false
         }
     },
     mounted(){

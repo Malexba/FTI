@@ -9,7 +9,7 @@
     </head>
     <body>
         <div id="recetario">
-            <div class="principal" v-if="!recetario.mostrarReceta" >
+            <div class="principal" v-if="!mostrarReceta" >
                 <h1>Agregador de recetas</h1>
                 <div class="cajaReceta" v-for="receta in recetario">
                     <button v-on:click="muestroReceta(receta)">
@@ -59,7 +59,7 @@
                     <div class="pasos2" v-if="receta.modo == 2" v-for="paso in receta.pasos">
                         <ol>
                             <li>{{ paso.descripcion }}</li>
-                            <div v-if="hayFoto" v-for="imagen in paso.imagenes" class="imagenes">
+                            <div v-if="paso.hayFoto" v-for="imagen in paso.imagenes" class="imagenes">
                                 <img v-bind:src="imagen" >
                             </div>
                         </ol>
@@ -78,6 +78,7 @@
                 </div>
                 <a v-if="receta.modo != 1" v-bind:href="receta.fuente"></a>
                 <p v-else>Libro de papel</p>
+                <button class="retroceder" v-on:click="retroceder">Volver al menú principal</button>
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
