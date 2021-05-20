@@ -24,7 +24,7 @@
             </div>
             <div class="receta-imagen">
                 <img v-if="receta.modo != 3" v-bind:src="receta.imagenFinal" >
-                <iframe width="731" height="411" src="https://www.youtube.com/embed/nd_W1aZxWBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe v-if="receta.modo == 3" v-bind:src="receta.video"></iframe>
             </div>
             <div class="datos4" v-if="receta.modo == 4">
                 <p>{{ receta.datos.precio }}</p>
