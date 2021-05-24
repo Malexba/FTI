@@ -20,7 +20,137 @@
             "Servir adornando con unas tiras de pimiento y yema rallada."
         ],
         "utensilios": [ "Olla" ],
-        "consejos":["Hola"],
+        "consejos":["Mucho más rico con mayonesa casera."],
         "autor": "www.directoalpaladar.com"
+    },
+    "recetaCookpad": {
+        "modo": 2,
+        "titulo": "Bomba de patata",
+        "imagenFinal": "https://img-global.cpcdn.com/recipes/ff6a55ff960edc04/680x482cq70/bomba-de-patata-foto-principal.webp",
+        "descripcion": "Acompañamos de ensalada, hamburguesa lo que os apetezca o solas ya que llenan bastante.",
+        "ingredientes": [ "4 patatas", "Agua para la cocción", "Sal", "Pan rallado", "2 huevos", "Aceite para freír", "2 latas de atún", "Salsa de tomate", "1 cebolla" ],
+        "pasos": {
+            "paso1": {
+                "descripcion": "Cocemos las patatas ya peladas. Añadimos la sal y cuando estén frías las pisamos con un tenedor bien que no queden trozos.",
+                "hayFoto": true,
+                "imagenes": [ "https://img-global.cpcdn.com/steps/e2c9422eeb492f06/160x128cq70/foto-del-paso-1-de-la-receta-bomba-de-patata.webp" ]
+            },
+            "paso2": {
+                "descripcion": "Una vez esté listo. Nos metemos al relleno. En un cazo sofreímos cebolla, el atún y el tomate. Cuando este dejamos enfriar.",
+                "hayFoto": false
+            },
+            "paso3": {
+                "descripcion": "Ponemos en la Palma de la mano un poco de patata y rellenamos cerramos, hacemos bola y pasamos por huevo y Pan rallado.",
+                "hayFoto": true,
+                "imagenes": [ "https://img-global.cpcdn.com/steps/fdcb9de00148ab85/160x128cq70/foto-del-paso-3-de-la-receta-bomba-de-patata.webp" ]
+            },
+            "paso4": {
+                "descripcion": "Ponemos aceite en un cazo hasta la mitad y cuando esté caliente añadimos de dos en dos para controlarlas bien.",
+                "hayFoto": true,
+                "imagenes": [ "https://img-global.cpcdn.com/steps/3360bf82a749b78b/160x128cq70/foto-del-paso-4-de-la-receta-bomba-de-patata.webp" ]
+            },
+            "paso5": {
+                "descripcion": "Por último escurrimos en una servilleta.",
+                "hayFoto": false
+            }
+        },
+        "autor": "Mesabeapoco",
+        "fuente": "https://cookpad.com/es/recetas/15009160-bomba-de-patata"
+    },
+    "recetaVideo": {
+        "modo": 3,
+        "titulo": "Bechamel",
+        "imagenFinal": "https://i.blogs.es/16bab3/salsa-bechamel/450_1000.jpg",
+        "video": "https://youtube.com/embed/nd_W1aZxWBo",
+        "ingredientes":[ "Leche", "Mantequilla", "Harina" ],
+        "vIngredientes": "https://youtube.com/embed/nd_W1aZxWBo?start=49",
+        "pasos": {
+            "paso1": {
+                "descripcion": "Preparamos el roux más claro posible cocinando la mantequilla y añadiendo después la harina poco a poco.",
+                "momento": "https://youtube.com/embed/nd_W1aZxWBo?start=107"
+            },
+            "paso2": {
+                "descripcion": "Añadimos leche fría de forma paulatina al roux disolviéndolo.",
+                "momento": "https://youtube.com/embed/nd_W1aZxWBo?start=146"
+            },
+            "paso3": {
+                "descripcion": "En caso de que la bechamel haya quedado con grumos, la colamos usando un chino.",
+                "momento": "https://youtube.com/embed/nd_W1aZxWBo?start=178"
+            },
+            "paso4": {
+                "descripcion": "Para conservarla le ponemos un plástico transparente sobre ella. El plástico debe tocar la bechamel para evitar que se formen grumos.",
+                "momento": "https://youtube.com/embed/nd_W1aZxWBo?start=193"
+            }
+        },
+        "consejos": {
+            "consejo1": {
+                "descripcion": "La bechamel podría tener origen italiano, aunque toma su nombre de un noble francés del siglo XVII.",
+                "momento": "https://youtube.com/embed/nd_W1aZxWBo?start=33"
+            },
+            "consejo2": {
+                "descripcion": "Antes de juntar la mantequilla y harina, podemos echar un poco de cebolla rallada a la mantequilla para dar sabor",
+                "momento": "https://youtube.com/embed/nd_W1aZxWBo?start=136"
+            },
+            "consejo3": {
+                "descripcion": "Podemos añadir sal, pimienta blanca y nuez moscada; siempre sin opacar el sabor a leche.",
+                "momento": "https://youtube.com/embed/nd_W1aZxWBo?start=185"
+            }
+        },
+        "autor": "Mikel López Iturriaga",
+        "fuente": "https://youtu.be/nd_W1aZxWBo"
+    },
+    "recetaDeRechupete": {
+        "modo": 4,
+        "titulo": "Ensalada Waldorf con pollo. Receta fácil y deliciosa",
+        "imagenFinal": "https://www.recetasderechupete.com/wp-content/uploads/2016/07/ensalada_waldorf-768x527.jpg",
+        "datos": {
+            "nPersonas": 4,
+            "dificultad": "Fácil",
+            "tiempo": "25 minutos",
+            "precio": 3.8,
+            "calorias": 267,
+            "tipoPlato": [ "Recetas de ensaladas y verduras" ]
+        },
+        "descripcion": [ 
+            "Cualquier época del año es buena para una refrescante ensalada, la que os presento hoy es una de ellas, una de las más famosas y con más historia del mundo, la ensalada Waldorf. Una de esas recetas de ensaladas con una preparación relativamente sencilla, sin ingredientes extraños y que dejarán impresionado a tu invitado, incluso a tu suegra si viene a comer.",
+            "Esta ensalada de pollo no se ciñe a una única receta, hay muchas variaciones, esta es una más aunque basada en la receta original del hotel Waldorf Astoria de Nueva York. Esta receta de ensalada Waldorf, como la receta de ensalada César, admiten muchas y variadas opciones, más actuales. Si un día os atrevéis a probarla así ya veréis cómo me dais la razón.",
+            "Si queréis ponerle un punto dulce a la comida que acompaña esta receta, al igual que esta ensalada, el Hotel Waldorf tiene en su carta de postre la famosa tarta Red Velvet cake, el hotel fue quien la popularizó. Os dejo con una ensalada muy refrescante, pero a la vez con cierta potencia, por la mayonesa, las nueces y las pasas. Nosotros la serviremos como tapa o aperitivo, pero vosotros podéis servirla como guarnición de la receta que más os guste.",
+            "Combinaremos la manzana ácida con el apio y aliñaremos con una salsa gloriosa a base de mayonesa y cítricos. Así tendremos una ensalada súper sabrosa, muy saludable, y lo más importante, estaremos comiendo las vegetales y fruta. Si queréis conseguir el sabor exquisito que tiene, procurar adquirir todos los ingredientes que os indico y os prometo que el éxito está asegurado."
+         ],
+        "video": "https://www.youtube.com/embed/J8DjlhSY1Ko",
+        "hayVideo": true,
+        "ingredientes":[
+            "Para la salsa Waldorf: 250 g. de mayonesa",
+            "El zumo de ½ limón",
+            "½ cucharadita de mostaza de Dijon",
+            "3 cucharadas de nata o crema de leche (35% M.G.)",
+            "Una cucharadita de azúcar o miel",
+            "Para la ensalada: 150 gr. de apio",
+            "2 manzanas ácidas (en este caso Granny Smith)",
+            "150 gr. de nueces troceadas y 50 gr. de piñones",
+            "100 gr. de pasas pequeñas",
+            "250 gr. de pechuga de pollo",
+            "Sal y pimienta negra o blanca recién molida (al gusto)",
+            "Un poquito de aceite de oliva virgen extra (para el pollo)",
+            "Para la base de la ensalada: Tu mezclum con lechuga para ensalada preferido,"
+        ],
+        "pasos":["Empezamos con la salsa, es muy sencilla. Lo primero es lavar el limón, lo vamos a emplear todo, su piel y el zumo. Rallamos toda la superficie y hacemos zumo con limón. Reservamos.",
+            "Como ya tenemos la base preparada. Removemos todo hasta que se integre el sabor ácido del cítrico. Este sabor contrarresta de maravilla con la manzana y el apio. Añadimos la nata líquida poco a poco hasta que quede bien ligada. A continuación incorporamos la mostaza y la pizca de azúcar o la cucharadita de miel. Debe quedar espesa pero que sea fácil de mezclar con el resto de ingredientes.",
+            "Tostamos un poco las nueces y los piñones en una sartén teniendo cuidado para que no se nos quemen ya que podrían amargar el sabor de la ensalada. Troceamos las nueces con la mano o un cuchillo para que no sean pedazos grandes. Serán más o menos del tamaño de las uvas pasas.",
+            "Pelamos la manzana, la descorazonamos y la partimos en dados de medio centímetro más o menos. El apio irá con el mismo tamaño que los trocitos de manzana. Colocamos todo en un cuenco mediano y rociamos con el zumo de limón para que no se oxide. Mezclamos bien para que se empape del ácido del medio limón.",
+            "Pelamos el apio con un pelador de verduras. Lo cortamos también en dados, un poquito más pequeños que la manzana. El apio debe ir sin las fibras que no moleste luego a la hora de comer la ensalada. El apio es que dará potencia y sabor a la ensalada, pensaréis que el apio crudo no queda bien. Pero os equivocáis, dará crujiente, a la vez se intuirá y os sorprenderá. Añadimos los trozos al cuenco con la manzana.",
+            "Echamos las nueces, los piñones y las uvas pasas (sin pepitas) a la salsa. Por último hacemos las pechugas de pollo a la plancha. Que queden jugosas, vuelta y vuelta, sin que quede cruda. Podéis ayudaros con unas gotas de aceite de oliva virgen extra para que se hagan antes.",
+            "Una vez hechas salpimentamos y las dejamos enfriar. Posteriormente cortamos en dados del mismo tamaño que los de la manzana. Añadimos todo a la salsa Waldorf y salpimentamos. Removemos muy bien hasta que se junten todos los sabores. Probamos por si necesitase un punto más salado. Ya tenemos nuestra ensalada lista."
+        ],
+        "consejos": [
+            "La historia de esta ensalada se remonta a finales del siglo XIX y su creador, según cuenta la historia, fue el maître Oscar Tschirky del hotel Waldorf Astoria en Nueva York.",
+            "Originalmente se hacía solo con manzana, apio y mayonesa, pero con el tiempo se han ido añadiendo nueces, uvas pasas, e incluso se ha ido mejorando la salsa para que casase mejor con los ingredientes.",
+            "Si cerráis inmediatamente este bol con lámina de plástico transparente bien adherida y lo guardáis en la nevera la tendréis perfecta para varios días, está mucho más rica de un día para otro y fresquita. Aunque como truco, evitaría añadir los frutos secos (nueces y piñones) y ponerlos en la misma justo cuando la vayamos a comer. Así tendréis ese toque crujiente que sorprende en esta ensalada.",
+            "Las nueces son las preferidas para esta ensalada, aunque yo he añadido piñones. Los frutos secos son orientativos, no tienen por qué ser los mismos, podemos usar almendras, pistachos o avellanas tostadas. Lo dejo a vuestra elección.",
+            "En muchas recetas se sustituyen las pasas por uvas frescas, solo tenéis que pelarlas, retirar las semillas y partirlas por la mitad. Nuestra ensalada quedará aún más refrescante.",
+            "En la receta original las manzanas son ácidas, de la variedad Granny Smith, pero podemos sustituirla por manzana Reineta, Fuji o Gala, incluso una mezcla de distintas variedades."
+        ],
+        "autor": "Alfonso López",
+        "fuente": "https://www.recetasderechupete.com/como-hacer-ensalada-waldorf/16658/#"
     }
 }

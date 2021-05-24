@@ -12,6 +12,9 @@ const recetario = new Vue({
         },
         retroceder: function () {
             this.mostrarReceta = false
+        },
+        moverVideo: function (momento) {
+            this.receta.video = momento
         }
     },
     mounted(){
