@@ -28,7 +28,7 @@
                     <div class="datos1" v-if="receta.modo == 1">
                         <p>{{ receta.datos.tipo }}</p>
                         <p>{{ receta.datos.temporada }}</p>
-                        <i v-if="receta.datos.celiaco" class="fas fa-bread-slice">(SIN GLUTEN)</i>
+                        <i v-if="!receta.datos.celiaco" class="fas fa-bread-slice">(CON GLUTEN)</i>
                         <i v-if="receta.datos.vegano" class="fas fa-seedling"></i>
                     </div>
                     <p>{{ receta.datos.nPersonas }} personas</p>

@@ -152,5 +152,53 @@
         ],
         "autor": "Alfonso López",
         "fuente": "https://www.recetasderechupete.com/como-hacer-ensalada-waldorf/16658/#"
+    },
+    "recetaLogos": {
+        "modo": 1,
+        "titulo": "Nuggets vegetarianos",
+        "imagenFinal": "https://okdiario.com/img/2018/10/23/receta-de-nuggets-veganos-de-soja-1.jpg",
+        "datos": {
+            "tipo": "Segundo (niños)",
+            "temporada": "Todo el año",
+            "celiaco": false,
+            "vegano": true,
+            "nPersonas": 2,
+            "dificultad": "Fácil",
+            "tiempo": "20 minutos"
+        },
+        "ingredientes":[ "100 gramos de soja texturizada", "50 ml de salsa de soja", "1 cucharada de tabasco", "100 gramos de pan rallado", "1 huevo", "Aceite de oliva", "Pimienta" ],
+        "pasos":["Mezclar 2 cucharadas de agua con el tabasco y la salsa de soja, echamos la soja texturizada y dejamos a remojo 15 minutos",
+            "En otro bol se bate el huevo con sal y pimienta, añadimos la soja bien escurrida y el pan rallado.",
+            "Amasamos hasta tener una masa que se pueda compactar con las manos",
+            "Cuando la masa no se desmigue demasiado, formamos los nuggets y lo freímos en abundante aceite por ambos lados. Escurrir el aceite en un colador y servir."
+        ],
+        "utensilios": [ "Sartén" ],
+        "consejos":["Presentar sobre una cama de lechuga para queden más frecos."],
+        "autor": "www.elespanol.com"
+    },
+    "recetaUlt": {
+        "modo": 1,
+        "titulo": "Pasta carbonara",
+        "imagenFinal": "https://www.pequerecetas.com/wp-content/uploads/2010/10/espaguetis-carbonara1.jpg",
+        "datos": {
+            "tipo": "Primero (pasta)",
+            "temporada": "Todo el año",
+            "celiaco": true,
+            "vegano": false,
+            "nPersonas": 2,
+            "dificultad": "Fácil",
+            "tiempo": "25 minutos"
+        },
+        "ingredientes":[ "3 yemas de huevo", "1 huevo", "100 gramos de panceta", "1 queso pecorino", "320 gramos de espaguetis", "Pimienta negra", "Sal" ],
+        "pasos":["Corta la panceta en trocitos y frielos en una sartén hasta que comiencen a dorarse",
+            "Bate las tres yemas de huevo con el huevo y el queso pecorino recien rallado hasta hacer una mezcla algo espesa. Dale un toque de pimienta negra",
+            "Pon la pasta a cocer en abundante agua con sal, y sacala cuando falten un par de minutos para que este al dente",
+            "En la sarten donde se había reservado la panceta, se agrega la pasta escurrida, y la mezcla de huevos, queso y pimienta. Mezclar bien",
+            "Agregar un cucharón de agua de cocción de la pasta, remover mientras se va cuajando ligeramente el huevo.",
+            "Servir espolvoreando un poco más de pecorino rallado y pimienta negra al gusto"
+        ],
+        "utensilios": [ "Sartén", "Olla", "Rallador" ],
+        "consejos":["No utilices bacon o bacon ahumado para hacer esta receta. Busca el auténtico guanciale italiano y si no, utiliza en su lugar una buena panceta fresca, retirando la piel."],
+        "autor": "www.directoalpaladar.com"
     }
 }
